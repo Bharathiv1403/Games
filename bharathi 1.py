@@ -14,20 +14,20 @@ def draw_ben_10_face():
     ben_10.goto(0, -100)
     ben_10.pendown()
     ben_10.begin_fill()
-    ben_10.circle(100)
+    ben_10.circle(110)
     ben_10.end_fill()
 
 # Define a function to draw Ben 10's eyes
 def draw_ben_10_eyes():
     ben_10.penup()
-    ben_10.goto(-40, 30)
+    ben_10.goto(-35, 25)
     ben_10.pendown()
     ben_10.begin_fill()
-    ben_10.circle(20)
+    ben_10.circle(25)
     ben_10.end_fill()
 
     ben_10.penup()
-    ben_10.goto(40, 30)
+    ben_10.goto(35, 25)
     ben_10.pendown()
     ben_10.begin_fill()
     ben_10.circle(20)
