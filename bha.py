@@ -3,9 +3,9 @@ import sys
 
 py.init()
 
-WIDTH, HEIGHT = 1200,800
+WIDTH, HEIGHT = 1000,600
 BACKGROUND_COLOR = (0, 150, 0)  # Green background
-BALL_COLOR = (300, 300, 300)    # White cricket ball
+BALL_COLOR = (250, 250, 250)    # White cricket ball
 BALL_RADIUS = 15
 
 # Create the screen
