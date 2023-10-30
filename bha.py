@@ -5,8 +5,8 @@ py.init()
 
 WIDTH, HEIGHT = 1200,800
 BACKGROUND_COLOR = (0, 150, 0)  # Green background
-BALL_COLOR = (300, 300, 300)    # White cricket ball
-BALL_RADIUS = 15
+BALL_COLOR = (250, 250, 250)    # White cricket ball
+BALL_RADIUS = 17
 
 # Create the screen
 screen = py.display.set_mode((WIDTH, HEIGHT))
