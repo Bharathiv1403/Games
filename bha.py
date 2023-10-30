@@ -4,13 +4,13 @@ import sys
 py.init()
 
 WIDTH, HEIGHT = 1200,800
-BACKGROUND_COLOR = (0, 150, 0)  # Green background
-BALL_COLOR = (250, 250, 250)    # White cricket ball
-BALL_RADIUS = 17
+BACKGROUND_COLOR = (0, 150, 0) 
+BALL_COLOR = (300, 300, 300)   
+BALL_RADIUS = 18
 
 # Create the screen
 screen = py.display.set_mode((WIDTH, HEIGHT))
-py.display.set_caption("Cricket Anime")
+py.display.set_caption("Cricket Animation")
 
 # Main game loop
 running = True
